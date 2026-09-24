@@ -52,7 +52,8 @@ function renderUI(data) {
       <button onclick="requestContactModal()" class="btn-action primary">📩 Request Contact Details</button>
       <a href="${p.linkedin}" target="_blank" rel="noopener" class="btn-action">🔗 LinkedIn</a>
       <a href="${p.github}" target="_blank" rel="noopener" class="btn-action">💻 GitHub</a>
-      <a href="Veera Naidu - Executive Resume.md" target="_blank" class="btn-action">📄 Markdown Resume</a>
+      <a href="Veera Naidu - Executive Resume.docx" target="_blank" class="btn-action">📄 Word Resume (.docx)</a>
+      <a href="Veera Naidu - Executive Resume.md" target="_blank" class="btn-action">📝 Markdown Resume</a>
     `;
   }
 

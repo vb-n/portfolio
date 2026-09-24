@@ -1,6 +1,6 @@
 # VEERA NAIDU, Ph.D.
 
-[LinkedIn](https://linkedin.com/in/bramhavardhan) • [GitHub](https://github.com/vb-n)
+[Portfolio](https://vb-n.github.io/portfolio/) • [LinkedIn](https://linkedin.com/in/bramhavardhan) • [GitHub](https://github.com/vb-n)
 
 ---
 
