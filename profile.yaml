@@ -14,13 +14,17 @@ personal_info:
   contact_request_text: "Request Contact Details"
 
 summary: >
-  Platform Engineering leader and Doctoral graduate with 9+ years of experience building and scaling Internal Developer Platforms (IDP), driving Developer Experience (DevEx) transformations, and leading cloud-native modernization initiatives. Proven success delivering infrastructure and licensing savings through platform-as-a-product strategies, Kubernetes ecosystems, and FinOps practices.
+  Platform Engineering leader and Doctoral graduate with 9+ years of experience building and scaling Internal Developer Platforms (IDP), driving Developer Experience (DevEx) transformations, and leading cloud-native modernization initiatives. Proven track record delivering $2M+ in annual cloud savings and $100K+ in licensing reductions by replacing expensive proprietary software with enterprise Open Source (OSS) platform tools. Expert in enterprise Kubernetes infrastructure, cloud-native containerization, establishing opinionated Golden Paths, Policy-as-Code compliance, and empowering 150+ developers while maintaining 99.99% system availability.
 
 key_metrics:
-  - label: "Platform & Cloud Leadership"
-    value: "9+ Yrs"
-  - label: "Doctoral Credentials"
-    value: "Ph.D."
+  - label: "Annual Cloud Cost Savings"
+    value: "$2M+"
+  - label: "License Savings via OSS Migration"
+    value: "$100K+"
+  - label: "Engineers Empowered via IDP"
+    value: "150+"
+  - label: "Production System Availability"
+    value: "99.99%"
 
 competencies:
   - category: "Platform Architecture & DevEx"
@@ -33,22 +37,31 @@ competencies:
       - "Service Scaffolding"
       - "Self-Service Portals"
 
-  - category: "Cloud-Native & Orchestration"
+  - category: "Cloud-Native & Containerization"
     skills:
       - "Kubernetes (EKS)"
       - "Cloud-Native Architecture"
-      - "Workload Migration"
+      - "Automated Container Image Builds"
+      - "OCI Standards"
+      - "Workload Modernization"
       - "GitOps (Argo CD)"
       - "Infrastructure as Code (Terraform, Crossplane)"
-      - "Docker"
       - "Linux"
+
+  - category: "DevSecOps & Security Governance"
+    skills:
+      - "Automated Security Posture Management"
+      - "Policy-as-Code (OPA / Kyverno)"
+      - "Continuous Compliance Auditing"
+      - "InfoSec Partnerships"
+      - "Real-Time Risk Reporting"
 
   - category: "FinOps & Platform Economics"
     skills:
       - "Cloud Cost Optimization"
       - "Platform TCO Reduction"
-      - "Enterprise License Decommissioning"
-      - "Resource Right-Sizing"
+      - "Open Source Software (OSS) Adoption"
+      - "Proprietary License Replacement"
       - "FinOps Governance"
 
   - category: "Observability & Reliability"
@@ -74,27 +87,30 @@ experience:
       - title: "Senior Manager – Platform Engineering"
         period: "Apr 2026 – Present"
         achievements:
-          - "Defined and executed enterprise platform engineering strategy and DevEx roadmap through opinionated Golden Paths and self-service platform capabilities."
-          - "Eliminated $100K in recurring annual enterprise licensing costs and significantly slashed platform TCO by spearheading the end-to-end migration of critical Kubernetes workloads from legacy Apprenda PaaS to an Internal Developer Platform (IDP)."
-          - "Architected and rolled out a centralized Spotify Backstage Developer Portal with native Kubernetes orchestration, reducing cognitive load for product development teams."
-          - "Centralized service lifecycle management and automated repository provisioning by building unified GitHub integrations and custom Backstage plugins."
-          - "Spearheaded enterprise Datadog observability transformation across logs, metrics, and distributed APM tracing, driving down mean time to resolution (MTTR)."
-          - "Championed platform-as-a-product culture and engineering excellence across distributed business units."
+          - "Direct enterprise platform engineering strategy and DevEx roadmap, delivering self-service IDP capabilities and opinionated Golden Paths for 150+ developers."
+          - "Partnered with InfoSec teams to automate real-time security posture assessment and continuous compliance reporting, writing declarative Policy-as-Code for platform workloads to guarantee audit readiness."
+          - "Eliminated $100K+ in recurring annual licensing fees by replacing expensive proprietary software with enterprise Open Source Software (OSS) platform tools and migrating workloads from legacy Apprenda PaaS to Kubernetes."
+          - "Architected and rolled out a centralized Spotify Backstage Developer Portal with native Kubernetes orchestration, standardizing repository provisioning and making service creation 45% faster."
+          - "Built custom Backstage plugins and GitHub workflow integrations, centralizing service lifecycle management and automated ownership tracking across multi-tier microservices."
+          - "Spearheaded full-stack Datadog observability across logs, metrics, and APM tracing, driving system uptime to 99.99% system availability."
+          - "Established platform SLOs and continuous developer feedback loops, driving high adoption across distributed engineering business units."
 
       - title: "Lead – Platform Engineering"
         period: "Apr 2025 – Apr 2026"
         achievements:
-          - "Achieved significant annual cost savings through proactive cloud optimization, workload consolidation, and rigorous FinOps governance."
-          - "Led modernization initiatives migrating legacy distributed systems to enterprise Kubernetes-based platforms, enhancing application scalability."
-          - "Abstracted underlying infrastructure complexity across multi-account cloud environments, empowering product squads to deploy code independently."
-          - "Scaled GitOps practices and declarative deployment patterns across engineering teams to enforce auditability."
+          - "Achieved $2M+ in annual cloud savings by migrating development projects to cost-effective platform architectures, rightsizing resources, and enforcing FinOps governance."
+          - "Architected and managed Amazon EKS cluster infrastructure across multi-account AWS environments, boosting system resilience and operational scalability."
+          - "Implemented automated cloud-native container image build pipelines and base image security patching, eliminating manual Dockerfile overhead across developer teams."
+          - "Abstracted underlying AWS infrastructure complexity across multi-account environments, empowering product squads to deploy code independently without ticket ops friction."
+          - "Scaled Argo CD GitOps practices and automated security policy controls across engineering teams to enforce 100% deployment compliance."
 
       - title: "Senior Cloud Engineer"
         period: "Aug 2020 – Apr 2025"
         achievements:
+          - "Modernized monolithic legacy applications into cloud-native microservices architectures, containerizing workloads and migrating them to enterprise Kubernetes clusters."
           - "Built and managed Kubernetes-based cloud-native platforms on AWS supporting high-throughput enterprise workloads."
           - "Implemented automated GitOps delivery pipelines and Crossplane-based infrastructure orchestration."
-          - "Developed custom automation tooling in Golang to accelerate platform operational tasks and cluster management."
+          - "Developed custom automation tooling in Golang to automate cluster maintenance and accelerate platform operational tasks."
           - "Established unified observability frameworks utilizing Grafana and Loki for real-time monitoring and log analytics."
           - "Modernized CI/CD pipelines to eliminate deployment friction and increase release frequency."
 
