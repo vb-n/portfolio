@@ -108,7 +108,7 @@ function renderUI(data) {
     if (data.additional_experience) {
       expContainer.innerHTML += `
         <div style="margin-top:24px; padding-top:16px; border-top:1px dashed var(--border-color);">
-          <div style="font-family:var(--font-mono); font-weight:600; color:var(--k8s-cyan); margin-bottom:10px;">Additional Experience</div>
+          <div style="font-weight:600; color:var(--brand-accent); margin-bottom:10px;">Additional Experience</div>
           <ul class="bullets-list">
             ${data.additional_experience.map(item => `<li><strong>${item.company}</strong> – ${item.role}</li>`).join('')}
           </ul>
@@ -125,7 +125,7 @@ function renderUI(data) {
       if (edu.dissertation) {
         dissHtml = `
           <div class="dissertation-card">
-            <div style="font-family:var(--font-mono); font-size:0.85rem; color:var(--k8s-emerald); font-weight:600;">DOCTORAL DISSERTATION</div>
+            <div class="dissertation-badge">DOCTORAL DISSERTATION</div>
             <div class="dissertation-title">"${edu.dissertation.title}"</div>
             <a href="${edu.dissertation.link}" target="_blank" rel="noopener" class="dissertation-link">
               🔗 Read Paper on ${edu.dissertation.publisher} &rarr;
@@ -137,9 +137,9 @@ function renderUI(data) {
         <div style="margin-bottom:22px;">
           <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap;">
             <div style="font-size:1.1rem; font-weight:600; color:var(--text-main);">${edu.degree}</div>
-            <div style="font-family:var(--font-mono); font-size:0.9rem; color:var(--k8s-cyan);">${edu.period || ''}</div>
+            <div style="font-family:var(--font-mono); font-size:0.9rem; color:var(--brand-accent);">${edu.period || ''}</div>
           </div>
-          <div style="font-family:var(--font-mono); font-size:0.9rem; color:var(--text-dim); margin-top:2px;">${edu.institution}</div>
+          <div style="font-size:0.9rem; color:var(--text-dim); margin-top:2px;">${edu.institution}</div>
           ${dissHtml}
         </div>
       `;
