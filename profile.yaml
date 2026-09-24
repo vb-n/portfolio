@@ -1,0 +1,133 @@
+apiVersion: platform.exec/v1
+kind: ExecutiveProfile
+metadata:
+  name: veera-naidu-phd
+  title: "Dr. Veera Naidu | Platform Engineering Leader"
+  status: "Running"
+  namespace: "executive-careers"
+
+personal_info:
+  name: "VEERA NAIDU, Ph.D."
+  headline: "Senior Manager – Platform Engineering & Doctoral Graduate"
+  linkedin: "https://linkedin.com/in/bramhavardhan"
+  github: "https://github.com/vb-n"
+  contact_request_text: "Request Contact Details"
+
+summary: >
+  Platform Engineering leader and Doctoral graduate with 9+ years of experience building and scaling Internal Developer Platforms (IDP), driving Developer Experience (DevEx) transformations, and leading cloud-native modernization initiatives. Proven success delivering infrastructure and licensing savings through platform-as-a-product strategies, Kubernetes ecosystems, and FinOps practices.
+
+key_metrics:
+  - label: "Platform & Cloud Leadership"
+    value: "9+ Yrs"
+  - label: "Doctoral Credentials"
+    value: "Ph.D."
+
+competencies:
+  - category: "Platform Architecture & DevEx"
+    skills:
+      - "Internal Developer Platforms (IDP)"
+      - "Spotify Backstage"
+      - "Developer Experience (DevEx)"
+      - "Golden Paths"
+      - "Software Cataloging"
+      - "Service Scaffolding"
+      - "Self-Service Portals"
+
+  - category: "Cloud-Native & Orchestration"
+    skills:
+      - "Kubernetes (EKS)"
+      - "Cloud-Native Architecture"
+      - "Workload Migration"
+      - "GitOps (Argo CD)"
+      - "Infrastructure as Code (Terraform, Crossplane)"
+      - "Docker"
+      - "Linux"
+
+  - category: "FinOps & Platform Economics"
+    skills:
+      - "Cloud Cost Optimization"
+      - "Platform TCO Reduction"
+      - "Enterprise License Decommissioning"
+      - "Resource Right-Sizing"
+      - "FinOps Governance"
+
+  - category: "Observability & Reliability"
+    skills:
+      - "Datadog (Logs, Metrics, APM Tracing)"
+      - "Grafana"
+      - "Loki"
+      - "Service-Level Governance"
+      - "Zero-Downtime Cutover"
+
+  - category: "Engineering Leadership & Delivery"
+    skills:
+      - "Platform Strategy & Roadmapping"
+      - "Platform-as-a-Product"
+      - "CI/CD Pipeline Automation"
+      - "Cross-Functional Leadership"
+      - "Agile/Scrum"
+
+experience:
+  - company: "MAXIMUS"
+    location: "Remote"
+    roles:
+      - title: "Senior Manager – Platform Engineering"
+        period: "Apr 2026 – Present"
+        achievements:
+          - "Defined and executed enterprise platform engineering strategy and DevEx roadmap through opinionated Golden Paths and self-service platform capabilities."
+          - "Eliminated $100K in recurring annual enterprise licensing costs and significantly slashed platform TCO by spearheading the end-to-end migration of critical Kubernetes workloads from legacy Apprenda PaaS to an Internal Developer Platform (IDP)."
+          - "Architected and rolled out a centralized Spotify Backstage Developer Portal with native Kubernetes orchestration, reducing cognitive load for product development teams."
+          - "Centralized service lifecycle management and automated repository provisioning by building unified GitHub integrations and custom Backstage plugins."
+          - "Spearheaded enterprise Datadog observability transformation across logs, metrics, and distributed APM tracing, driving down mean time to resolution (MTTR)."
+          - "Championed platform-as-a-product culture and engineering excellence across distributed business units."
+
+      - title: "Lead – Platform Engineering"
+        period: "Apr 2025 – Apr 2026"
+        achievements:
+          - "Achieved significant annual cost savings through proactive cloud optimization, workload consolidation, and rigorous FinOps governance."
+          - "Led modernization initiatives migrating legacy distributed systems to enterprise Kubernetes-based platforms, enhancing application scalability."
+          - "Abstracted underlying infrastructure complexity across multi-account cloud environments, empowering product squads to deploy code independently."
+          - "Scaled GitOps practices and declarative deployment patterns across engineering teams to enforce auditability."
+
+      - title: "Senior Cloud Engineer"
+        period: "Aug 2020 – Apr 2025"
+        achievements:
+          - "Built and managed Kubernetes-based cloud-native platforms on AWS supporting high-throughput enterprise workloads."
+          - "Implemented automated GitOps delivery pipelines and Crossplane-based infrastructure orchestration."
+          - "Developed custom automation tooling in Golang to accelerate platform operational tasks and cluster management."
+          - "Established unified observability frameworks utilizing Grafana and Loki for real-time monitoring and log analytics."
+          - "Modernized CI/CD pipelines to eliminate deployment friction and increase release frequency."
+
+  - company: "GE HEALTHCARE"
+    location: "Chicago, IL"
+    roles:
+      - title: "Senior Software Engineer – Build & Release"
+        period: "May 2018 – Jul 2020"
+        achievements:
+          - "Modernized CI/CD pipelines to accelerate deployment velocity, enhance build reproducibility, and improve release reliability."
+          - "Developed shared automation libraries in Groovy standardizing build, test, and release processes."
+          - "Integrated automated security, static analysis, and code quality tooling directly into the SDLC to enforce compliance gates."
+          - "Partnered with cross-functional engineering and QA teams to eliminate bottlenecks."
+
+additional_experience:
+  - role: "Software Engineer"
+    company: "Collabera (GE Healthcare)"
+  - role: "Site Reliability Engineer Intern"
+    company: "LifeLock (Symantec)"
+  - role: "System Engineer"
+    company: "Infosys"
+
+education:
+  - degree: "Doctorate in Information Technology (Ph.D.)"
+    institution: "University of the Cumberlands"
+    period: "2017 – 2021"
+    dissertation:
+      title: "Inaccuracy of Predicting Software Defects Using Supervised Machine Learning Models"
+      link: "https://www.proquest.com/openview/9e600d59a2bf021921d0ef87d03a9771/1.pdf?pq-origsite=gscholar&cbl=18750&diss=y"
+      publisher: "ProQuest Dissertation Publishing"
+  - degree: "M.S., Information Systems Security"
+    institution: "University of the Cumberlands"
+    period: "2017 – 2021"
+  - degree: "M.S., Computer Science"
+    institution: "Northwestern Polytechnic University"
+    period: "2014 – 2016"

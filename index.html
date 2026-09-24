@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Veera Naidu | Platform Engineering Leader</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Executive portfolio of Dr. Veera Naidu, Ph.D. - Senior Manager – Platform Engineering & Doctoral Graduate. Internal Developer Platforms, Kubernetes, DevEx, and FinOps.">
+  <meta name="keywords" content="Platform Engineering, Kubernetes, DevEx, FinOps, Internal Developer Platform, Backstage, Dr. Veera Naidu">
+  <meta name="author" content="Dr. Veera Naidu">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dr. Veera Naidu | Platform Engineering Leader">
+  <meta property="og:description" content="YAML-driven Platform Engineering Portfolio & Executive Resume.">
+  <meta property="og:type" content="website">
+
+  <!-- K8s Stylesheet -->
+  <link rel="stylesheet" href="css/k8s.css">
+
+  <!-- JS-YAML Parser for dynamic YAML loading -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- CONTROL PLANE TOP NAVIGATION -->
+    <header class="k8s-nav">
+      <div class="k8s-logo">
+        <div class="k8s-wheel-icon">☸</div>
+        <span>platform.exec/v1</span>
+      </div>
+
+      <div class="status-pills">
+        <span class="badge">● Pod: Running (1/1)</span>
+        <span class="badge blue">Namespace: executive-careers</span>
+      </div>
+
+      <div class="view-tabs">
+        <button id="tabDashboard" class="tab-btn active">🎛️ DASHBOARD</button>
+        <button id="tabYaml" class="tab-btn">📄 RAW YAML SPEC</button>
+      </div>
+    </header>
+
+    <!-- MAIN DASHBOARD VIEW -->
+    <main id="viewDashboard">
+
+      <!-- HERO CONTROL PLANE CARD -->
+      <section class="hero-card">
+        <div class="hero-header">
+          <div class="hero-name-group">
+            <h1 id="candidateName">VEERA NAIDU, Ph.D.</h1>
+            <div id="candidateHeadline" class="hero-headline">
+              Senior Manager – Platform Engineering & Doctoral Graduate
+            </div>
+          </div>
+          <div class="kubectl-cmd-box">
+            $ kubectl get candidate dr-veera-naidu-phd -o wide
+          </div>
+        </div>
+
+        <div id="contactActions" class="contact-actions">
+          <!-- Dynamically populated from profile.yaml -->
+        </div>
+      </section>
+
+      <!-- KEY TELEMETRY METRICS GRID -->
+      <section id="telemetryGrid" class="telemetry-grid">
+        <!-- Dynamically populated from profile.yaml -->
+      </section>
+
+      <!-- EXECUTIVE SUMMARY -->
+      <section class="k8s-card">
+        <div class="card-title-bar">
+          <div class="card-title">SPEC.SUMMARY</div>
+        </div>
+        <p id="summaryText" class="summary-text">
+          <!-- Dynamically populated from profile.yaml -->
+        </p>
+      </section>
+
+      <!-- CORE COMPETENCIES MATRIX -->
+      <section class="k8s-card">
+        <div class="card-title-bar">
+          <div class="card-title">SPEC.COMPETENCIES</div>
+        </div>
+        <div id="skillsGrid" class="skills-grid">
+          <!-- Dynamically populated from profile.yaml -->
+        </div>
+      </section>
+
+      <!-- PROFESSIONAL EXPERIENCE TIMELINE -->
+      <section class="k8s-card">
+        <div class="card-title-bar">
+          <div class="card-title">SPEC.EXPERIENCE</div>
+        </div>
+        <div id="experienceTimeline">
+          <!-- Dynamically populated from profile.yaml -->
+        </div>
+      </section>
+
+      <!-- EDUCATION & PUBLICATIONS -->
+      <section class="k8s-card">
+        <div class="card-title-bar">
+          <div class="card-title">SPEC.EDUCATION_AND_PUBLICATIONS</div>
+        </div>
+        <div id="educationList">
+          <!-- Dynamically populated from profile.yaml -->
+        </div>
+      </section>
+
+    </main>
+
+    <!-- RAW YAML SPEC VIEW -->
+    <section id="viewYaml" style="display:none;">
+      <div class="k8s-card">
+        <div class="card-title-bar">
+          <div class="card-title">profile.yaml — SINGLE SOURCE OF TRUTH</div>
+          <button onclick="copyYaml()" class="btn-action primary" style="font-size:0.85rem; padding:4px 12px;">
+            📋 Copy YAML Spec
+          </button>
+        </div>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:16px;">
+          This website is dynamically driven by <code>profile.yaml</code>. You can update <code>profile.yaml</code> in this repository at any time to automatically change your achievements, experience, and metadata!
+        </p>
+        <div id="yamlContent" class="yaml-editor-container"></div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="k8s-footer">
+      <p>DR. VEERA NAIDU, Ph.D. • PLATFORM ENGINEERING LEADER</p>
+    </footer>
+
+  </div>
+
+  <!-- APPLICATION JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>
