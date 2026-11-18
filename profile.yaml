@@ -17,65 +17,40 @@ summary: >
   Platform engineering leader with 9+ years of experience designing and scaling internal developer platforms and cloud-native infrastructure for distributed engineering organizations. Led initiatives that delivered $2M+ in annual infrastructure savings and $100K+ in licensing savings by replacing legacy and third-party platforms with cloud-native, in-house alternatives, while scaling a self-service developer platform to 150+ engineers and sustaining 99.99% availability. Operates as a hands-on player-coach, owning platform roadmaps and OKRs, coaching and growing engineers, and carrying enterprise responsibility for PHI/PII data governance and vendor management. Holds a Ph.D. in Information Technology, with doctoral research in machine learning-based software defect prediction.
 
 competencies:
-  - category: "Platform Architecture & DevEx"
+  - category: "Platform & Developer Experience"
     skills:
       - "Internal Developer Platforms (IDP)"
       - "Spotify Backstage"
-      - "Developer Experience (DevEx)"
       - "Golden Paths"
-      - "Software Cataloging"
-      - "Service Scaffolding"
       - "Self-Service Portals"
 
-  - category: "Cloud-Native & Containerization"
+  - category: "Cloud-Native & Infrastructure"
     skills:
       - "Kubernetes (EKS)"
-      - "Cloud-Native Architecture"
-      - "Automated Container Image Builds"
-      - "OCI Standards"
-      - "Workload Modernization"
+      - "Terraform & Crossplane"
       - "GitOps (Argo CD)"
-      - "Infrastructure as Code (Terraform, Crossplane)"
-      - "Linux"
+      - "Container Orchestration"
 
-  - category: "DevSecOps & Security Governance"
+  - category: "Security & Compliance"
     skills:
       - "Shift-Left Security"
-      - "Automated Security Posture Management"
-      - "Policy-as-Code (OPA / Kyverno)"
-      - "Continuous Compliance Auditing"
-      - "InfoSec Partnerships"
-      - "Real-Time Risk Reporting"
+      - "Policy-as-Code"
       - "PHI/PII Data Governance (HIPAA)"
-      - "Data Classification & Access Control"
+      - "InfoSec Partnerships"
 
-  - category: "FinOps & Platform Economics"
+  - category: "Observability & Delivery"
     skills:
-      - "Cloud Cost Optimization"
-      - "Platform TCO Reduction"
-      - "Open Source Software (OSS) Adoption"
-      - "Proprietary License Replacement"
-      - "FinOps Governance"
-      - "Vendor & Contract Management"
+      - "Datadog"
+      - "Grafana & Loki"
+      - "CI/CD Automation"
+      - "FinOps & Cost Optimization"
 
-  - category: "Observability & Reliability"
+  - category: "Leadership & Governance"
     skills:
-      - "Datadog (Logs, Metrics, APM Tracing)"
-      - "Grafana"
-      - "Loki"
-      - "Service-Level Governance"
-      - "Zero-Downtime Cutover"
-
-  - category: "Engineering Leadership & Delivery"
-    skills:
-      - "Platform Strategy & Roadmapping"
-      - "OKR Ownership & Goal-Setting"
+      - "OKR Ownership & Roadmapping"
       - "Player-Coach Leadership"
-      - "Team Coaching & Career Development"
-      - "Platform-as-a-Product"
-      - "CI/CD Pipeline Automation"
-      - "Cross-Functional Leadership"
-      - "Agile/Scrum"
+      - "Team Coaching & Hiring"
+      - "Vendor Management"
 
 experience:
   - company: "MAXIMUS"

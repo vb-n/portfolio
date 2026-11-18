@@ -69,9 +69,7 @@ function renderSkills(categories = []) {
   document.getElementById('skillsGrid').innerHTML = categories.map(category => `
     <div class="skill-category">
       <h3>${escapeHtml(category.category)}</h3>
-      <div class="skill-pills">
-        ${(category.skills || []).map(skill => `<span class="skill-pill">${escapeHtml(skill)}</span>`).join('')}
-      </div>
+      <p>${(category.skills || []).map(escapeHtml).join(' · ')}</p>
     </div>
   `).join('');
 }
