@@ -3,142 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Veera Naidu, Ph.D. | Platform Engineering Leader</title>
-  
-  <!-- SEO & Social Meta Tags -->
-  <meta name="description" content="Executive portfolio of Dr. Veera Naidu, Ph.D. - Senior Manager – Platform Engineering & Doctoral Graduate. Internal Developer Platforms, Cloud-Native Architecture, DevEx, and FinOps.">
-  <meta name="keywords" content="Platform Engineering, Internal Developer Platform, DevEx, FinOps, Cloud Architecture, Dr. Veera Naidu">
-  <meta name="author" content="Dr. Veera Naidu, Ph.D.">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Dr. Veera Naidu, Ph.D. | Platform Engineering Leader">
-  <meta property="og:description" content="YAML-driven Executive Platform Engineering Portfolio & Resume.">
+  <meta name="description" content="Dr. Veera Naidu is a platform engineering leader focused on developer experience, cloud-native platforms, and reliable infrastructure.">
+  <meta name="author" content="Dr. Veera Naidu">
+  <meta property="og:title" content="Dr. Veera Naidu | Platform Engineering">
+  <meta property="og:description" content="Platform engineering, developer experience, and cloud-native infrastructure.">
   <meta property="og:type" content="website">
-
-  <!-- Modern Design System Stylesheet -->
+  <title>Dr. Veera Naidu | Platform Engineering</title>
   <link rel="stylesheet" href="css/k8s.css">
-
-  <!-- JS-YAML Parser for dynamic YAML loading -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+  <script defer src="js/app.js"></script>
 </head>
 <body>
-
-  <div class="container">
-
-    <!-- STICKY TOP NAV BAR -->
-    <header class="app-nav">
-      <div class="nav-brand">
-        <div class="brand-dot"></div>
-        <span>Dr. Veera Naidu, Ph.D.</span>
-        <span class="nav-subtitle">Platform Engineering Leader</span>
-      </div>
-
-      <div class="nav-actions">
-        <div class="view-tabs">
-          <button id="tabDashboard" class="tab-btn active">🎛️ Dashboard</button>
-          <button id="tabYaml" class="tab-btn">📄 YAML Spec</button>
-        </div>
-      </div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#top">Veera Naidu</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+      </nav>
     </header>
 
-    <!-- MAIN DASHBOARD VIEW -->
-    <main id="viewDashboard">
+    <main id="top">
+      <div id="loadingMessage" class="loading-message" role="status">Loading portfolio…</div>
+      <div id="loadError" class="load-error" role="alert" hidden></div>
+      <div id="portfolioContent" hidden>
+        <section class="intro" aria-labelledby="candidateName">
+          <p class="eyebrow">Platform engineering · Developer experience · Cloud-native systems</p>
+          <h1 id="candidateName"></h1>
+          <p id="candidateHeadline" class="headline"></p>
+          <p id="summaryText" class="summary"></p>
+          <div id="contactActions" class="link-row"></div>
+        </section>
 
-      <!-- HERO EXECUTIVE CARD -->
-      <section class="hero-card">
-        <div class="hero-header">
-          <h1 id="candidateName">VEERA NAIDU, Ph.D.</h1>
-          <div id="candidateHeadline" class="hero-headline">
-            Senior Manager – Platform Engineering & Doctoral Graduate
-          </div>
-        </div>
+        <section class="section" aria-labelledby="skillsTitle">
+          <h2 id="skillsTitle">Areas of focus</h2>
+          <div id="skillsGrid" class="skills-list"></div>
+        </section>
 
-        <div id="contactActions" class="contact-actions">
-          <!-- Dynamically populated from profile.yaml -->
-        </div>
-      </section>
+        <section id="experience" class="section" aria-labelledby="experienceTitle">
+          <h2 id="experienceTitle">Experience</h2>
+          <div id="experienceTimeline"></div>
+        </section>
 
-      <!-- KEY TELEMETRY METRICS GRID -->
-      <section id="telemetryGrid" class="telemetry-grid">
-        <!-- Dynamically populated from profile.yaml -->
-      </section>
-
-      <!-- EXECUTIVE SUMMARY -->
-      <section class="app-card">
-        <div class="card-title-bar">
-          <div class="card-title">
-            Executive Summary
-          </div>
-        </div>
-        <p id="summaryText" class="summary-text">
-          <!-- Dynamically populated from profile.yaml -->
-        </p>
-      </section>
-
-      <!-- CORE COMPETENCIES MATRIX -->
-      <section class="app-card">
-        <div class="card-title-bar">
-          <div class="card-title">
-            Core Competencies
-          </div>
-        </div>
-        <div id="skillsGrid" class="skills-grid">
-          <!-- Dynamically populated from profile.yaml -->
-        </div>
-      </section>
-
-      <!-- PROFESSIONAL EXPERIENCE TIMELINE -->
-      <section class="app-card">
-        <div class="card-title-bar">
-          <div class="card-title">
-            Professional Experience
-          </div>
-        </div>
-        <div id="experienceTimeline">
-          <!-- Dynamically populated from profile.yaml -->
-        </div>
-      </section>
-
-      <!-- EDUCATION & PUBLICATIONS -->
-      <section class="app-card">
-        <div class="card-title-bar">
-          <div class="card-title">
-            Education & Publications
-          </div>
-        </div>
-        <div id="educationList">
-          <!-- Dynamically populated from profile.yaml -->
-        </div>
-      </section>
-
+        <section id="education" class="section" aria-labelledby="educationTitle">
+          <h2 id="educationTitle">Education</h2>
+          <div id="educationList"></div>
+        </section>
+      </div>
     </main>
 
-    <!-- RAW YAML SPEC VIEW -->
-    <section id="viewYaml" style="display:none;">
-      <div class="app-card">
-        <div class="card-title-bar">
-          <div class="card-title">
-            profile.yaml — Single Source of Truth
-          </div>
-          <button onclick="copyYaml()" class="btn-action primary" style="font-size:0.85rem; padding:4px 12px;">
-            📋 Copy YAML Spec
-          </button>
-        </div>
-        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:16px;">
-          This website is dynamically driven by <code>profile.yaml</code>. Any updates to <code>profile.yaml</code> in this repository will instantly reflect across the website!
-        </p>
-        <div id="yamlContent" class="yaml-editor-container"></div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="app-footer">
-      <p>DR. VEERA NAIDU, Ph.D. • PLATFORM ENGINEERING LEADER</p>
+    <footer class="site-footer">
+      <span id="footerName"></span>
+      <a href="#top">Back to top ↑</a>
     </footer>
-
   </div>
-
-  <!-- APPLICATION JS -->
-  <script src="js/app.js"></script>
 </body>
 </html>
