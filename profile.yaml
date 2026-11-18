@@ -59,15 +59,15 @@ experience:
       - title: "Senior Manager – Platform Engineering"
         period: "Apr 2026 – Present"
         achievements:
-          - "Own the platform engineering roadmap end-to-end, presenting strategy and quarterly OKRs directly to senior leadership for an organization of 150+ engineers."
-          - "Lead a team of 5 as a hands-on player-coach, running weekly 1:1s, career development planning, hiring, and performance calibration while staying directly involved in architecture and builds."
-          - "Mentor engineers into lead and senior roles, strengthening the team's technical depth alongside the platform roadmap."
-          - "Replaced licensed platform software with an internally built developer portal, reducing annual software costs by $100K+."
           - "Launched a centralized developer portal with custom plugins and native Kubernetes integration, cutting service onboarding time by 45%."
+          - "Replaced licensed platform software with an internally built developer portal, reducing annual software costs by $100K+."
+          - "Built full-stack observability across logs, metrics, and traces, sustaining 99.99% platform availability."
           - "Carry platform-wide responsibility for PHI/PII data, including classification, least-privilege access control, encryption at rest and in transit, and breach response coordination."
           - "Partner with the internal ISO team on joint security reviews and control implementation, owning audit evidence collection across HIPAA and internal risk audits."
           - "Evaluate and select platform vendors, own SLA performance, and run vendor security reviews."
-          - "Built full-stack observability across logs, metrics, and traces, sustaining 99.99% platform availability."
+          - "Own the platform engineering roadmap end-to-end, presenting strategy and quarterly OKRs directly to senior leadership for an organization of 150+ engineers."
+          - "Lead the team as a hands-on player-coach, running weekly 1:1s, career development planning, hiring, and performance calibration while staying directly involved in architecture and builds."
+          - "Mentor engineers into lead and senior roles, strengthening the team's technical depth alongside the platform roadmap."
 
       - title: "Lead – Platform Engineering"
         period: "Apr 2025 – Apr 2026"
@@ -127,8 +127,8 @@ website:
     - company: "MAXIMUS"
       role: "Senior Manager – Platform Engineering"
       paragraphs:
-        - "Owns the platform engineering roadmap end-to-end, presenting strategy and quarterly OKRs directly to senior leadership for an organization of 150+ developers. Leads a team of 5 as a hands-on player-coach — staying directly involved in architecture and builds while running weekly 1:1s, career development planning, and hiring — and has mentored engineers into lead and senior roles. A centralized developer portal cut service onboarding time by 45%, while replacing licensed platform software with an internally built alternative saved $100K+ annually."
-        - "Carries platform-wide responsibility for PHI/PII data, covering classification, least-privilege access control, and encryption at rest and in transit, with direct ownership of breach response coordination and audit evidence collection across HIPAA and internal risk audits. Partners closely with the internal ISO team on joint security reviews and control implementation, and manages the platform's vendor relationships — evaluating tools, owning SLA performance, and running vendor security reviews — while full-stack observability sustains 99.99% platform availability."
+        - "Owns the platform engineering roadmap and remains hands-on in architecture and development, building self-service capabilities for more than 150 developers. Helped deliver a centralized developer portal that reduced service onboarding time by 45% and replaced licensed software with an internally built alternative, saving more than $100K annually."
+        - "Partners with security teams to protect PHI and PII, implement controls, and support HIPAA and internal risk audits. As a player-coach, leads and mentors engineers, shapes quarterly OKRs, and evaluates platform vendors while helping sustain 99.99% availability through full-stack observability."
     - company: "MAXIMUS"
       role: "Lead – Platform Engineering"
       paragraphs:

@@ -27,15 +27,15 @@ Platform Engineering Leader with 9+ years of experience designing and scaling in
 ### MAXIMUS | Remote
 
 #### Senior Manager, Platform Engineering | Apr 2026 – Present
-* Own the platform engineering roadmap end-to-end, presenting strategy and quarterly OKRs directly to senior leadership for an organization of **150+ engineers**.
-* Lead a team of **5** as a hands-on player-coach, running weekly 1:1s, career development planning, hiring, and performance calibration while staying directly involved in architecture and builds.
-* Mentor engineers into lead and senior roles, strengthening the team's technical depth alongside the platform roadmap.
-* Replaced licensed platform software with an internally built developer portal, reducing annual software costs by **$100K+**.
 * Launched a centralized developer portal with custom plugins and native Kubernetes integration, cutting service onboarding time by **45%**.
+* Replaced licensed platform software with an internally built developer portal, reducing annual software costs by **$100K+**.
+* Built full-stack observability across logs, metrics, and traces, sustaining **99.99% platform availability**.
 * Carry platform-wide responsibility for PHI/PII data, including classification, least-privilege access control, encryption at rest and in transit, and breach response coordination.
 * Partner with the internal ISO team on joint security reviews and control implementation, owning audit evidence collection across **HIPAA** and internal risk audits.
 * Evaluate and select platform vendors, own SLA performance, and run vendor security reviews.
-* Built full-stack observability across logs, metrics, and traces, sustaining **99.99% platform availability**.
+* Own the platform engineering roadmap end-to-end, presenting strategy and quarterly OKRs directly to senior leadership for an organization of **150+ engineers**.
+* Lead the team as a hands-on player-coach, running weekly 1:1s, career development planning, hiring, and performance calibration while staying directly involved in architecture and builds.
+* Mentor engineers into lead and senior roles, strengthening the team's technical depth alongside the platform roadmap.
 
 #### Lead, Platform Engineering | Apr 2025 – Apr 2026
 * Migrated production workloads off a licensed legacy platform onto Kubernetes-based cloud-native infrastructure, cutting annual costs by **$2M+**.

@@ -51,7 +51,9 @@ function renderLinks(person, resumeRequestEmail) {
   const links = [
     ...(resumeRequestEmail ? [{
       label: 'Request a resume',
-      url: `mailto:${resumeRequestEmail}?subject=${encodeURIComponent('Resume request')}`,
+      url: `mailto:${resumeRequestEmail}?subject=${encodeURIComponent('Resume request')}&body=${encodeURIComponent(
+        'Hi Veera,\n\nI would like to request a copy of your resume.\n\nName:\nCompany:\nRole or opportunity:\n\nThank you!'
+      )}`,
       className: 'resume-request'
     }] : []),
     { label: 'LinkedIn', url: person.linkedin },

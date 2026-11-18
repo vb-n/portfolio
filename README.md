@@ -8,6 +8,8 @@ The portfolio content is maintained in [`profile.yaml`](./profile.yaml). Update 
 
 Website-specific role summaries live under `website.experience_summaries`. This keeps the portfolio's concise paragraphs separate from the detailed `achievements` used for resume content. Add a matching company and role entry there to show a summary for each role on the website.
 
+The resume request button opens an email with a fill-in template. Set the recipient with `website.resume_request_email` in `profile.yaml`; the subject and message template are in `js/app.js`.
+
 ## Preview locally
 
 Run a static web server from this directory so the browser can load `profile.yaml`:
