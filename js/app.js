@@ -95,7 +95,7 @@ function renderExperience(experience = [], additionalExperience = [], summaries 
 
   const additional = additionalExperience.length
     ? `<p class="additional-experience"><strong>Earlier roles:</strong> ${additionalExperience.map(item =>
-        `${escapeHtml(item.role)} (${escapeHtml(item.company)})`
+        escapeHtml(item.role)
       ).join(' · ')}</p>`
     : '';
 
